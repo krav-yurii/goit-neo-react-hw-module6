@@ -12,6 +12,8 @@ function Contact({ contact }) {
         dispatch(deleteContact(id));
     };
 
+    console.log(contact);
+
   return (
     <div className={styles.container}>
       <div className={styles.info}>
